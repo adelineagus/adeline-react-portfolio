@@ -1,20 +1,19 @@
 # Tech Post Blog
 
   ## Description
-  The purpose of this project is to utilize GraphQL API built with Apollo Server to run Book Search Engine. This app was built using MERN stack with react, mongoDB, node.js, and express.js
+  The purpose of this project is to create portolio using React. 
 
   Achievements:
-  1. When loading engine, users are presented with search for books menu option, login/signup, and input field to serach for books
-  2. When click search for books menu, users are presented with input field to search books and submit button
-  3. Once search button is clicked, Users are presented with results which features book's title, author, description, image, and link. Users are able to save book by clicking save button ONLY when logged in. 
-  4. When login/signup menu is clicked, there's option to login or signup
-  5. Signup page: username, email, and password + signup button
-  6. When valid email and password are entered, user account is created and user is logged in
-  7. Login page: email and password + login button
-  8. When valid credentials are submitted, users are loggedin
-  9. When user click option to see saved books, user is presented with all books that are saved to the account and its details along with a button to remove book from account
-  10. When user click remove buttonbook, book is deleted from the save book list
-  11. When user click logout button, user is logged out.
+  1. When loading porfolio, users are presented with page containing header, section, and footer
+  2. Header consists of developer's name, navigation with titles corresponding to different sections
+  3. Navigation title includes About Me, Portfolio, Contact, and Resume. Title corresponding to current section is highlighted.
+  4. When navigation title is clicked, corresponding section is presented without page reload
+  5. When loading portolio for the first  time, about me title and section are selected by default
+  6. About me: recent photo and short bio
+  7. Portfolio: Title images of 6 apps with links to deployed and github repo
+  8. Contact: form with fields for name, email, and message
+  9. Resume: downloadable resume and list of developer's proficiencies
+  10. Footer: text/link to developer's github, linkedin, instagram, email, and phone number
 
   
   ## Table of Contents
@@ -26,28 +25,18 @@
   - [Questions](#questions)
 
   ## Installation
-  Clone repo, install node, express, use mongodb, react, and graphQL. 
+  Clone repo, install node and react
 
   Run npm install to install packages needed. 
 
-  Repo: https://github.com/adelineagus/book-search
-  Deployed app: https://adeline-booksearch.herokuapp.com
+  Repo: https://github.com/adelineagus/adeline-react-port
+  Deployed app: https://adelineagus.github.io/adeline-react-portfolio
 
   ## Usage
   In terminal, run npm run start .  
 
-  Screenshot Search Book Page : [searchbook](./images/searchbookpage.png)
+  Screenshot: [aboutme](./src/assets/img/aboutme.png)[app](./src/assets/img/aboutme.png)
 
-  Screenshot Save Book Option: [saveoption](./images/savebookoption.png)
-  
-  Screenshot Saved Book Page: [savedpage](./images/savedbookpage)
-
-  Screenshot Delete Book Option: [deleteoption](./images/deletebook.png)
-
-  Screenshot Login Page: [login](./images/loginpage.png)
-  
-  Screenshot Signup Page: [signup](./images/signuppage.png)
-  
   ## Credits
   Collaborators: Adeline Aguspranoto
 

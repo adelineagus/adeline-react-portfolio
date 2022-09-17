@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/adeline-react-portfolio/static/css/main.82782f7f.css",
+    "main.js": "/adeline-react-portfolio/static/js/main.8d190a81.js",
+    "static/media/cityscan.png": "/adeline-react-portfolio/static/media/cityscan.8df96535c89a27f940e5.png",
+    "static/media/collectivecup.png": "/adeline-react-portfolio/static/media/collectivecup.da3acc8ac4052d538026.png",
+    "static/media/techblog.png": "/adeline-react-portfolio/static/media/techblog.918392849cf5f9225ef5.png",
+    "static/media/weatherapp.png": "/adeline-react-portfolio/static/media/weatherapp.a2cde369a2d40f2d3619.png",
+    "static/media/dailyplanner.png": "/adeline-react-portfolio/static/media/dailyplanner.35493806e2636a5a161f.png",
+    "static/media/notetaker.png": "/adeline-react-portfolio/static/media/notetaker.96a96f9d341661bbad5c.png",
+    "static/media/profilepic.jpg": "/adeline-react-portfolio/static/media/profilepic.ee22842697e54112f3cf.jpg",
+    "static/media/Resume.pdf": "/adeline-react-portfolio/static/media/Resume.5a88db9a797065611919.pdf",
+    "index.html": "/adeline-react-portfolio/index.html",
+    "main.82782f7f.css.map": "/adeline-react-portfolio/static/css/main.82782f7f.css.map",
+    "main.8d190a81.js.map": "/adeline-react-portfolio/static/js/main.8d190a81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82782f7f.css",
+    "static/js/main.8d190a81.js"
+  ]
+}
