@@ -29,13 +29,13 @@
 
   Run npm install to install packages needed. 
 
-  Repo: https://github.com/adelineagus/adeline-react-port
+  Repo: https://github.com/adelineagus/adeline-react-portfolio
   Deployed app: https://adelineagus.github.io/adeline-react-portfolio
 
   ## Usage
   In terminal, run npm run start .  
 
-  Screenshot: [aboutme](./src/assets/img/aboutme.png)[app](./src/assets/img/aboutme.png)
+  Screenshot: [aboutme](./src/assets/img/aboutme.png)[app](./src/assets/img/app.png)
 
   ## Credits
   Collaborators: Adeline Aguspranoto
