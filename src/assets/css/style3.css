@@ -1,0 +1,204 @@
+/*setting up base style*/
+*{
+    box-sizing:border-box;
+}
+
+/*setting up style for body*/
+body{
+    flex:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+}
+ h2{
+     justify-content:center;
+ }
+/*header style*/
+/* header{
+    padding:20px; 
+    text-align:center;
+    background-color:#b9c6ae;
+} */
+
+/*nav style which includes flex properties*/
+nav{
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    flex:100%;
+}
+
+/* nav a {
+    text-decoration: none;
+    margin: 20px;
+    text-align: center;
+} */
+
+/*ensure main sections are in a flex style and wrap sections to not exceed screen size*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+}
+
+#about-me{
+    flex: 100%;
+    padding:30px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+/*aside section to take 40% of about me section and to be placed in center of the section*/
+aside {
+    flex: 40%;
+    padding: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/*column section to take 60% of about me section and to be placed in center of section*/
+.column{
+    flex: 60%;
+    padding:0 4px;
+    justify-content:center;
+    align-items:center;
+}
+
+/*ensure profile picture isn't exceeding 100%*/
+aside img{
+    max-width:100%;
+    border: none;
+}
+
+
+#work-apps{
+    margin-top: 10px;
+    margin-right: 10px;
+    flex:0 0 100%;
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+#work-apps p{
+    font-size:15px;
+    text-align:center;
+}
+
+#small-apps{
+    display: flex;
+    flex-wrap: wrap;
+    flex:100%;
+}
+
+#largest-app{ 
+    flex: 100%;
+}
+
+#small-apps img{
+    align-self:center;
+    width:100%;
+}
+
+/*setting up each application to take 25% of small apps section*/
+.apps{
+    flex:33%;
+    max-width:33%;
+    padding:0 4px;
+}
+/*setting up apps image to take full width of the section*/
+.apps img{
+    width:100%;
+    border: solid;
+}
+
+.section-flex{
+  margin-right: 10px;
+flex:100%;
+  background-color: #fff;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+#contact-info{
+    flex:0 0 100%;
+    background-color:#b9c6ae;
+    padding: 30px;
+}
+
+#contact-info li{
+    margin:20px 50px;
+    list-style-type: none;
+}
+.nav-link.active {
+    color: pink;
+    font-weight: bold;
+}
+.center{
+  justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid black;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 20px;
+    text-align:center;
+    color: white
+  }
+  nav a:hover {
+    color: pink;
+  }
+  nav a:focus {
+    color:pink;
+    outline: none;
+  }
+
+  .skill-list{
+      text-align:center;
+      display:inline-block;
+      margin-left:20px;
+      margin-right:20px;
+  }
+
+  .resume-content{
+    flex-direction: column;
+    flex:100%;
+    text-align:center;
+
+  }
+.link-parent{
+    max-width:100%;
+    display: flex;
+    justify-content:center;
+    padding-bottom:10px;
+}
+.link-position{
+   padding-left: 10px;
+   padding-right:10px;
+  }
+
+  /* Tablets - fonts  */
+@media screen and (max-width: 992px) {
+  
+}
+
+@media screen and (max-width: 912px) {
+
+}
+
+/* Large smartphones */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* Small smartphones */
+@media screen and (max-width: 576px) {
+
+}
