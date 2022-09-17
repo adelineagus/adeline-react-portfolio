@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Tech Post Blog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  ## Description
+  The purpose of this project is to utilize GraphQL API built with Apollo Server to run Book Search Engine. This app was built using MERN stack with react, mongoDB, node.js, and express.js
 
-## Available Scripts
+  Achievements:
+  1. When loading engine, users are presented with search for books menu option, login/signup, and input field to serach for books
+  2. When click search for books menu, users are presented with input field to search books and submit button
+  3. Once search button is clicked, Users are presented with results which features book's title, author, description, image, and link. Users are able to save book by clicking save button ONLY when logged in. 
+  4. When login/signup menu is clicked, there's option to login or signup
+  5. Signup page: username, email, and password + signup button
+  6. When valid email and password are entered, user account is created and user is logged in
+  7. Login page: email and password + login button
+  8. When valid credentials are submitted, users are loggedin
+  9. When user click option to see saved books, user is presented with all books that are saved to the account and its details along with a button to remove book from account
+  10. When user click remove buttonbook, book is deleted from the save book list
+  11. When user click logout button, user is logged out.
 
-In the project directory, you can run:
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-### `npm start`
+  ## Installation
+  Clone repo, install node, express, use mongodb, react, and graphQL. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Run npm install to install packages needed. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  Repo: https://github.com/adelineagus/book-search
+  Deployed app: https://adeline-booksearch.herokuapp.com
 
-### `npm test`
+  ## Usage
+  In terminal, run npm run start .  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  Screenshot Search Book Page : [searchbook](./images/searchbookpage.png)
 
-### `npm run build`
+  Screenshot Save Book Option: [saveoption](./images/savebookoption.png)
+  
+  Screenshot Saved Book Page: [savedpage](./images/savedbookpage)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  Screenshot Delete Book Option: [deleteoption](./images/deletebook.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  Screenshot Login Page: [login](./images/loginpage.png)
+  
+  Screenshot Signup Page: [signup](./images/signuppage.png)
+  
+  ## Credits
+  Collaborators: Adeline Aguspranoto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  How to contribute: please email collabolators
 
-### `npm run eject`
+  ## Tests
+  No tests
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  ## Questions
+  To see more projects, visit my github page at https://github.com/adelineagus. If you have any questions regarding this project, feel free to contact me at adelineaguspranoto@gmail.com.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
